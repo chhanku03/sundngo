@@ -1,0 +1,33 @@
+.volunteer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .volunteer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .volunteer label {
+    margin-bottom: 10px;
+  }
+  
+  .volunteer input[type="text"],.volunteer input[type="email"],.volunteer input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .volunteer button:hover {
+    background-color: #3e8e41;
+  }
